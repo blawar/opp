@@ -1,0 +1,2 @@
+#!/bin/bash
+g++ -g -pg -O3 main.cpp storage/table.cpp cerberus.cpp stream.cpp expression.cpp storage/blob.cpp storage/memory.cpp storage/storage.cpp storage/strings.cpp -o cerberus
